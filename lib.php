@@ -170,10 +170,6 @@ class format_socialwall extends format_topics {
                     'element_type' => 'selectyesno',
                     'help' => 'deleteafterunenrol',
                     'help_component' => 'format_socialwall'
-                ),
-                'numsections' => array(
-                    'label' => '',
-                    'element_type' => 'hidden'
                 )
             );
             $courseformatoptions = array_merge_recursive($courseformatoptions, $courseformatoptionsedit);
